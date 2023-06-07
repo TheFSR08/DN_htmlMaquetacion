@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/grid/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea de Bootstrap</title>
+</head>
+<style>
+  body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+#listas-hobbies{
+  background-color: darkslateblue;       
+  border: 2px solid black;
+  justify-content: flex-start;
+  width: 400px;
+  text-align: center;
+}
+
+</style>
+<body>
+
+   <!--barra de navegacion de la pagina web-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">My Webx</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Desabilitado</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Mas</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                      <li><a class="dropdown-item" href="#">mis gustos</a></li>
+                      <li><a class="dropdown-item" href="#">placeres</a></li>
+                      <li><a class="dropdown-item" href="#">Extravagancia</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form role="search">
+                  <input style="border: 2px solid pink;" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <!---   las migas de pan de bootstrap    -->
+
+        
+          
+            
+          
+          
+
+
+
+    <!---cajas de contenidos-->
+   
+<h3 style="text-align: center; background-color: black; color: white;">CONOCE MIS PASATIEMPOS</h3>
+
+            
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"> Inicio</li>
+  <li class="breadcrumb-item"> continuacion</li>
+  <li class="breadcrumb-item"> Seguimiento</li>
+</ol>
+<br>
+  <br>
+<div class="container">
+    <div class="row">
+           <div class="col-md-3"style="background-color:#ccc">
+            <h3>politica exterior</h3>
+            <p style="text-align:justify ;">este es uno de los temas que mas me impactan, ya que atravez de ella
+                puedo enterarme de temas foraneos y ademas de eso aprender sobre como se 
+                manejan los paises en asuntos tales como:  <i> la diplomacia, el comercio y otros 
+                    temas que los correlaciona...
+                </i> 
+                <hr>
+                <pre>wikipedia groups</pre>
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img src="./FSR.jpg" alt="imagen pasatiempos">
+        </div>
+        <div class="col-md-3"style="background-color:#ccc">
+            <h3>Lectura Intensiva</h3>
+            <p style="text-align:justify">
+                leer esta entre mis pasatiempos favoritos
+                pero leer articulos con relevancia cosas
+                importantes, temas que llamen atencion,
+                y tambien temas sobre la vida antigua como:
+                ingenieria, astrologia, hidrografia, electricidad, biodiversidad etc...
+                <hr>
+                mariano
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img src="./FSR.jpg" alt="imagen pasatiempos">
+        </div>
+     </div>
+  </div>
+</div>
+<br>
+<br>
+<!--  esto es una prueba de clase o tarea de programacion web+ -->
+<!--grupo de campos de formularios-->
+<main class="form-signin w-50 m-auto"> 
+<form action="mailto:franyel58@gmail.com" method="post">
+ <br><br>
+    <legend style="text-align: center;">Quieres conocerme?</legend>
+    
+    <div class="form-floating"> <input placeholder="Primer_Nombre" class="form-control" type="text" name="nombre" id="floatingInput" placeholder="escribe aqui nombre"/>
+        <label for="floatingInput">Primer nombre</label>
+    </div>
+    <br>
+    <div class="form-floating"> <input class="form-control" type="text" name="apelliodo" id="floatingInput" placeholder="escribe aqui apellido">
+        <label for="floatingInput">Apellidos</label>
+    </div>
+    <br>
+    <h6>fecha de nacimiento</h6>
+    <input placeholder="fecha_Nacimiento"  type="date" name="nombre" />
+        
+    <br>
+    <br>
+    <div class="form-floating"> <input class="form-control" type="text" name="nombre" id="floatingInput" placeholder="escribe aqui cedula"></div>
+     <br>
+    <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+    </form>
+
+</main> 
+
+<!--- mi primer articulo -->
+
+    <table>
+        <h3 style="text-align: center;"> Elige opciones </h3>
+        <thead>
+            <th><i class="bi-alarm"></i></th>
+            <th><i class="bi-alarm"></i></th>
+            <th><i class="bi-alarm"></i></th>
+            <th><i class="bi-alarm"></i></th>
+        </thead>
+
+        <tr>
+            <td><i class="bi-alarm"></i></td>
+            <td><i class="bi-alarm"></i></td>
+            <td><i class="bi-alarm"></i></td>
+            <td><i class="bi-alarm"></i></td>
+        </tr>
+
+        <tr>
+            <td><i class="bi-alarm"></i></td>
+            <td><i class="bi-alarm"></i></td>
+            <td><i class="bi-alarm"></i></td>
+            <td><i class="bi-alarm"></i></td>
+        </tr>
+
+        <tr>
+            <td><i class="bi-alarm"></i></td>
+            <td><i class="bi-alarm"></i></td>
+            <td><i class="bi-alarm"></i></td>
+            <td><i class="bi-alarm"></i></td>
+        </tr>
+
+    </table>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+<div class="col-md-6">
+<div class="container" id="listas-hobbies">
+  <ul class="list-group">
+    <br>
+    <h3 style="text-align:center; border: 1px solid white; background-color: yellowgreen;">My favorites Hobbies</h3><br>
+       <a class="list-group-item list-group-item-primary" href="#">aprender mas sobre cualquier tema interesante</a>
+       <a class="list-group-item list-group-item-success" href="#">investigacion de articulos de reelevancia</a>
+       <a class="list-group-item list-group-item-danger" href="#">lectura intensiva</a>
+       <a class="list-group-item list-group-item-primary" href="#">lectura matutina</a>
+       <a class="list-group-item list-group-item-success" href="#">meditacion de personalidad</a>
+       <a class="list-group-item list-group-item-danger" href="#">ejercitarme</a>
+       <a class="list-group-item list-group-item-primary" href="#">comer a mis gustos</a>
+
+       <a class="list-group-item list-group-item-success" href="#">bromear sobre cualquier cosa</a>
+       <a class="list-group-item list-group-item-danger" href="#">reir a carcajadas</a>
+       <a class="list-group-item list-group-item-primary" href="#">ayudar a los demas</a>
+       <a class="list-group-item list-group-item-success" href="#">inventar con articulos electricos</a>
+       <a class="list-group-item list-group-item-danger" href="#">viajar todo el tiempo</a>
+  </ul>
+  <br>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="list-group">
+  <h3>Otros</h3>
+  <hr size="4px" color="red">
+  <br>
+  <a class="list-group-item d-flex justify-content-between align-items-center">notificaciones<span class="badge">12</span> </a>
+  <a class="list-group-item d-flex justify-content-between align-items-center">canciones <span class="badge"> 34 </span> </a>
+  <a class="list-group-item d-flex justify-content-between align-items-center">Bendiciones <span class="badge"> 56 </span> </a>
+  <a class="list-group-item d-flex justify-content-between align-items-center">Involucrados <span class="badge"> 60 </span> </a>
+  <a class="list-group-item d-flex justify-content-between align-items-center">Involucrados <span class="badge"> 60 </span> </a>
+ <br>
+ <br>
+  <div class="list-group">
+ <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+  <div class="d-flex w-100 justify-content-between">
+    <h5 class="mb-1">Franyel Sanchez</h5>
+    <small> 3 days ago</small>
+  </div>
+  <p class="mb-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque rem laborum doloribus ducimus repellat obcaecati eligendi officiis voluptate facilis reprehenderit beatae</p>
+ </a>
+  </div>
+
+</div>
+</div>
+
+
+</div>
+</div>
+
+<div class="container-fluid">
+  <br>
+  <nav>
+    <ul class="pagination">
+      <li><a href="#">&laquo;</a></li>
+      <li class="pagination-item"><a href="">1</a></li>
+      <li><a href="">2</a></li>
+      <li><a href="">3</a></li>
+      <li><a href="">4</a></li>
+      <li><a href="">5</a></li>
+      <li><a href="#">&raquo;</a></li>
+    </ul>
+  </nav>
+</div>
+
+</body>
+</html>
